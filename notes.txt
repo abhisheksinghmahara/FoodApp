@@ -1,0 +1,12 @@
+if not starting from start
+git add . ==> for staging if any changes are there
+git commit -m "comment" ==>for add comment
+git push origin main   ==>push code to github
+
+npm init ==> package.json
+npm install -D parcel ==>node module, package.lock.json
+npx parcel index.html- dist, .parcel-cache
+npm install react ==> for react install
+npm install react-dom==> for react-dom install
+
+npm install ==>if we have our package.json and package.lock.json and if we delete dist, node modules, .parcel-cache we can retrieve all them by it
