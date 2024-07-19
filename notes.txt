@@ -6,7 +6,8 @@ git push origin main   ==>push code to github
 
 git branch ==> to check branch name we are working in
 git checkout -b branchname ==> to create a branch
-git push --set-upstream origin branchname==>push code to the git branch 
+git push --set-upstream origin branchname==>push code to the git branch for first time
+git push==> push code to the branch
 
 npm init ==> package.json
 npm install -D parcel ==>node module, package.lock.json
