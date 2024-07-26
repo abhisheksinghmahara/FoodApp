@@ -3,3 +3,4 @@
 # javascript rendering added some commands to notes
 # git new branch premain created
 # installing react, reactdom
+# food app layout
