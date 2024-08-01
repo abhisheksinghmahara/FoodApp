@@ -18,6 +18,10 @@ npm install react-dom==> for react-dom install
 npm install ==>if we have our package.json and package.lock.json and if we delete dist, node modules
 npx paarcel index.html==>if we delete .parcel-cache we can retrieve all them by it
 
+config
+
+
+
 app.js content
 // const heading= document.createElement("h1");
 // heading.innerHTML="This is a food app in javascipt"

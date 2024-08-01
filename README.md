@@ -4,3 +4,4 @@
 # git new branch premain created
 # installing react, reactdom
 # food app layout
+# added manual data obj and showed it to the dom
