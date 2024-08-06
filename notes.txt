@@ -20,7 +20,7 @@ npx paarcel index.html==>if we delete .parcel-cache we can retrieve all them by 
 
 config
 
-
+Key attribute while looping through data==> when we use any looping or map through our data we should use key attribute to it because if there some more data is added without use of key attribute, so react will not be able to identify that new data and re-renders all the data which will make our website slow. So using key attribute helps to identify the new data and react only renders that new data. So we can say key attribute helps in optimization.
 
 app.js content
 // const heading= document.createElement("h1");

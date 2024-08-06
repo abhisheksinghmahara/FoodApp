@@ -5,3 +5,4 @@
 # installing react, reactdom
 # food app layout
 # added manual data obj and showed it to the dom
+# used a hard coded data and rendered it to cards
