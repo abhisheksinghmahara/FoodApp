@@ -108,7 +108,7 @@
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    height: 350px;
+    height: 400px;
     width: 300px;
     border-radius: 5px;
     margin: 20px;
@@ -118,11 +118,14 @@
 }
 .card:hover{
     /* transform: rotate(360deg); */
-    transform: scale(1.0009);
+    transform: scale(0.99);
     box-shadow: 1px 1px 1px 0px #160202;
 }
 .food_picture{
-    height:220px;
+    height:250px;
     width: 100%;
     border-radius: 5px 5px 0px 0px;
+}
+.item_description{
+    padding: 5px;
 }
