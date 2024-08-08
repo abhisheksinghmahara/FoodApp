@@ -6,3 +6,4 @@
 # food app layout
 # added manual data obj and showed it to the dom
 # used a hard coded data and rendered it to cards
+# using component based architecture, react hook usestate

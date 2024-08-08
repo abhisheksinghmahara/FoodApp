@@ -16,12 +16,25 @@ npm install react ==> for react install
 npm install react-dom==> for react-dom install
 
 npm install ==>if we have our package.json and package.lock.json and if we delete dist, node modules
-npx paarcel index.html==>if we delete .parcel-cache we can retrieve all them by it
+npx parcel index.html==>if we delete .parcel-cache we can retrieve all them by it
 
-config
+config driven UI==>
 
 Key attribute while looping through data==> when we use any looping or map through our data we should use key attribute to it because if there some more data is added without use of key attribute, so react will not be able to identify that new data and re-renders all the data which will make our website slow. So using key attribute helps to identify the new data and react only renders that new data. So we can say key attribute helps in optimization.
 
+React hook-->these are normal javascipt utility functions which is given to us by React
+
+$State ==>The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders.
+
+$usestase State variable ==>Use state is to create state variable. It maintains the state of your variable or can say component. useState is a React Hook that lets you add a state variable to your component.
+
+$DOM==>document object module is a tree like structure of components like div tag, header tag etc 
+
+$Virtual DOM==> It is a representation of the actual DOM. 
+[console.log(<Component_name/>)]. The object representation a lots of jsx tags and elements inside it and elements generally known as virtual DOM. This vitual DOM makes the react rendering faster because it is faster at manipulating and changing the UI layer according the state variable changes of the component. 
+
+Reconciliation algorthym(react fiber)==>
+Diff algorthym==>This basically finds out the difference between the two virtual DOM [old vDOM and new vDOM]. And calculate the difference and updates
 app.js content
 // const heading= document.createElement("h1");
 // heading.innerHTML="This is a food app in javascipt"
